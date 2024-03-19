@@ -374,7 +374,20 @@
             </div>
         </div>
     </section>
+                        <center><div id="rango-widget-container"></div>
+<script src="https://api.rango.exchange/widget/iframe.bundle.min.js"></script>
+<script defer type="text/javascript">
 
+  const config = {
+    // This API key is only for test purpose. Don't use it in production.
+    apiKey: 'c6381a79-2817-4602-83bf-6a641a409e32',
+    // This project id is only for test purpose. Don't use it in production.
+    // Get your Wallet Connect project id from https://cloud.walletconnect.com/
+    walletConnectProjectId: 'e24844c5deb5193c1c14840a7af6a40b'
+  }
+              
+  rangoWidget.init(config)
+</script><center>
     <!-- Tokenomics Section -->
     <section id="tokenomics" class=" text-white py-16">
         <div class="container mx-auto text-center">
@@ -382,7 +395,13 @@
                 <h1 class="text-center text-4xl lg:text-7xl text-cyan-400 glow-text" style="background-image: linear-gradient(to right, cyan, violet);
                     color: transparent;
                     -webkit-background-clip: text;
-                    background-clip: text;">Tokenomics</h1>
+                    background-clip: 
+                                               
+        <div class="token1 flex flex-col-reverse md:flex-row md:items-center justify-start mx-4 md:mx-6 lg:mx-8">
+                <h1 class="text-center text-4xl lg:text-7xl text-cyan-400 glow-text" style="background-image: linear-gradient(to right, cyan, violet);
+                    color: transparent;
+                    -webkit-background-clip: text;
+                    background-clip:                                                                                                       text;">Tokenomics</h1>
                 <img class="w-32 md:w-42 lg:w-64 px-5" src="images/tok.svg" alt="">
             </div>
             <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8 m-10 align-middle ">
@@ -442,6 +461,8 @@
         </div>
     </section>
 
+                                   
+                                                                 
     <!-- partners section -->
     <section id="partners">
         <div class="container mx-auto text-center p-5 lg:pb-20">
